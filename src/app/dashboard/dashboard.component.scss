@@ -1,0 +1,232 @@
+.Main{
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+// first div
+.FirstDivision{
+    overflow:hidden;
+    width:20%;
+    padding:10px; border-right: 1px groove ;   
+}
+
+.userInfo{
+    text-align: center;margin-top:30px;
+    font-weight: 500;
+}
+
+.profilePic{
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%; height: 40%;
+        border-radius: 50%; margin-bottom: 20px;
+}
+
+.optionsList{
+    padding:10px; margin-top: 60px;
+    height: 300px;
+}
+
+.listStyle{
+    padding: 10px;display: flex;
+    border-radius: 10px;
+    color:gray;
+    transition: background-color 0.3s ease;
+}
+.listStyle:hover {
+    background-color: #f3f3f3; 
+    color:black;
+    font-weight: 500;
+  }
+
+.OptionsLink{
+    width:100%;
+    display:flex
+}
+
+.logout{
+    display: flex; padding:20px;
+     margin-top: 100%;
+    color:gray;
+    
+}
+
+.LogDiv{
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.LogDiv:hover {
+    background-color: #f3f3f3; 
+    color:black;
+    font-weight: 500;
+  }
+
+
+.user-photos-container{
+    padding:2px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.profilePicSmall{
+    display: none;
+}
+
+.secDiv{
+    padding: 30px; width:55%;
+}
+.hiDiv{
+    display: flex; padding-top:5px;padding-bottom:30px; justify-content: space-between;
+}
+.greet{
+    font-weight: 500; font-weight:bold;
+}
+.search{
+    margin-right: 20px; background-color: #f3f3f3;
+}
+.addCourse{
+    border-radius: 10px;background-color: rgba(14, 14, 32, 0.923);
+}
+
+.performance{
+    display: flex; background: #f3f3f3; border-radius: 20px; justify-content: space-between;padding:30px; width:100%;
+}
+.hours{
+    margin-top: 10px; margin-bottom: 10px;
+}
+.testResults{
+    margin-top: 10px; margin-bottom: 10px;;
+}
+.coursesCompleted{
+    margin-top: 10px; margin-bottom: 10px;
+}
+.Cards{
+    display: flex; padding-top: 30px;padding-bottom: 30px ;
+}
+.testStatus{
+    display: flex; justify-content: space-between;margin-top: 30px;
+}
+.thirdDiv{
+    padding-top: 30px;padding-right: 10px; padding-bottom: 30px;width: 25%;
+}
+
+.performanceCount{
+    font-weight: bold; font-size: 30px; margin-top: 10px;
+}
+
+.card1{
+    padding: 10px; margin-right: 20px; width:45%; border-radius: 20px; background-color: rgba(228, 229, 255, 1);
+}
+.card2{
+    padding: 10px; margin-right: 20px; width:45%; border-radius: 20px; background-color: rgba(233, 245, 255, 1);
+}
+.card3{
+    padding: 10px; margin-right: 5px; width:45%; border-radius: 20px; background-color: rgba(255, 221, 207, 1)
+}
+
+.clipIcon{
+    padding-top: 5px; padding-bottom: 30px; display: flex; justify-content: flex-end;
+}
+.smallNav{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .Main{
+        width:100%;
+        display: block;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .FirstDivision{
+        display: none; 
+    }
+    .secDiv{
+        width:auto;
+    }
+    .hiDiv{
+        display: block;
+    }
+    .twoButtons{
+        display: flex;
+        margin-top: 20px;
+    }
+    .performanceCount{
+        font-size: 20px;
+    }
+    .stats{
+        width:100%;
+    }
+    .hours{
+        padding-right: 15px;
+    }
+    .testResults{
+        padding-right: 15px;
+    }
+    .Cards{
+        display: block;
+        width:100%;
+    }
+    .card1{
+        width:100%;
+        margin-right: 0;
+    }
+    .card2{
+        width: 100%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .card3{
+        width: 100%;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .testStatus{
+        display:block;
+        border-bottom: 1px groove rgb(230, 227, 227);
+    }
+    .testContent{
+        padding: 20px;
+    }
+    .status{
+        width:max-content;
+        margin-bottom: 20px;
+    }
+    .clipIcon{
+        display:none;
+    }
+    .thirdDiv{
+        width:100%;
+        padding:30px;
+    }
+    .classButton{
+        margin-left: 15%;
+    }
+    .profilePicSmall{
+        display: block;
+        margin-right: auto;
+        width: 20%; height: 20%;
+        border-radius: 50%; margin-bottom: 20px;
+    }
+    .greet{
+        margin: auto;
+    }
+    .smallNav{
+        display: block; 
+        padding: 20px;
+    }
+    .navLinks{
+        display: block;
+        color: gray;
+        transition: background-color 0.3s ease;
+    }
+    .navLinks:hover{
+        background-color: #f3f3f3; 
+    color:black;
+    font-weight: 500;
+    }
+    
+}
